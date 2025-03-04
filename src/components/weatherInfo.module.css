@@ -1,0 +1,48 @@
+.weatherInfo {
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      color: inherit;
+    }
+  }
+  
+  .weatherMain {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  
+    img {
+      width: 80px;
+      height: 80px;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    }
+  }
+  
+  .temperature {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    color: #666;
+    font-size: 1.1rem;
+  
+    .dark & {
+      color: #ccc;
+    }
+  }
+  
+  .weatherDetails {
+    p {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      color: #666;
+  
+      .dark & {
+        color: #ccc;
+      }
+    }
+  }
