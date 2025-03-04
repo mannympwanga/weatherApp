@@ -10,7 +10,7 @@ import axios from 'axios';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const [mapCenter, setMapCenter] = useState({ lat: 51.505, lng: -0.09 });
+  const [mapCenter, setMapCenter] = useState({ lat: -26.193, lng: 28.3082 });
   const { weatherData, error, getWeather } = useWeather();
 
   const handleSearch = async (query: string) => {
